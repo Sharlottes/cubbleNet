@@ -16,10 +16,15 @@ body {
   min-height: 100vh;
 }
 
+img {
+  pointer-events: none;
+}
+
 .heading {
   display: flex;
   align-items: center;
   gap: 4px;
+  margin-left: 8px;
 }
 
 .heading > img {
@@ -40,7 +45,9 @@ hr {
 }
 
 .cubble-card {
+  flex: 1;
   color: black;
+  max-width: 250px;
   width: fit-content;
   backdrop-filter: blur(10px);
   display: flex;
@@ -69,9 +76,9 @@ hr {
 
 .cubble-card > img {
   border-radius: 12px;
-  width: 160px;
   height: 160px;
   margin-bottom: 4px;
+  object-fit: cover;
 }
 
 a {
