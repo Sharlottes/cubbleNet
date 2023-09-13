@@ -13,6 +13,7 @@ body {
     rgba(4, 0, 4, 1) 90%
   );
   overflow-x: hidden;
+  min-height: 100vh;
 }
 
 .heading {
@@ -92,9 +93,6 @@ a {
 }
 
 .cubble-card > div p {
-}
-
-.cubble-card > div p {
   font-size: 16px;
 }
 
@@ -155,6 +153,7 @@ a {
     transform: rotate(360deg)
   }
 }
+
 @keyframes rainbow {
   from {
     color: #6666ff;
